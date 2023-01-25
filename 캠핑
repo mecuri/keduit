@@ -1,1 +1,50 @@
-<mxfile host="app.diagrams.net" modified="2023-01-25T13:25:54.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="20.8.10" etag="0g94Vm82XRl7iEjrTjIm" type="github"><diagram name="페이지-1" id="l-qYn1xEIXhpkwe2TBJE">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-01-25T14:38:32.171Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="Bkl1Ei--kOBcRIZyiYTB" version="20.8.10" type="github">
+  <diagram name="페이지-1" id="l-qYn1xEIXhpkwe2TBJE">
+    <mxGraphModel dx="528" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-10" value="사용자(회원 기준)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="z_Wrc2tn_mOiDFHaOugp-13" target="z_Wrc2tn_mOiDFHaOugp-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Wrc2tn_mOiDFHaOugp-13" target="z_Wrc2tn_mOiDFHaOugp-26">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-13" value="캠핑장" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="40" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-15" value="상품" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="515" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-16" value="게시판(파티구인)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Wrc2tn_mOiDFHaOugp-19" target="z_Wrc2tn_mOiDFHaOugp-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-19" value="예약" style="ellipse;whiteSpace=wrap;html=1;fillColor=rgb(251, 251, 251);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="1">
+          <mxGeometry x="380" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-23" value="결제" style="ellipse;whiteSpace=wrap;html=1;fillColor=rgb(251, 251, 251);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="1">
+          <mxGeometry x="600" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z_Wrc2tn_mOiDFHaOugp-26" target="z_Wrc2tn_mOiDFHaOugp-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-26" value="리뷰" style="ellipse;whiteSpace=wrap;html=1;fillColor=rgb(251, 251, 251);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="1">
+          <mxGeometry x="380" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="z_Wrc2tn_mOiDFHaOugp-28" value="댓글(+좋아요)" style="ellipse;whiteSpace=wrap;html=1;fillColor=rgb(251, 251, 251);strokeColor=rgb(0, 0, 0);fontColor=rgb(0, 0, 0);" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="140" height="70" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
